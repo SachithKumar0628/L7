@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2, largest;
+    int a, b, largest;
 
     
     printf("Enter two numbers: ");
-    scanf("%d %d", &num1, &num2);
+    scanf("%d %d", &a, &b);
 
     
-    largest = (num1 > num2) ? num1 : num2;
+    largest = (a > b) ? a : b;
 
     
     printf("The largest number is: %d\n", largest);
