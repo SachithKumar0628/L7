@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, largest;
+    int a, b, lar;
 
     
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
     
-    largest = (a > b) ? a : b;
+    lar = (a > b) ? a : b;
 
     
-    printf("The largest number is: %d\n", largest);
+    printf("The largest number is: %d\n", lar);
 
     return 0;
 }
